@@ -6,6 +6,7 @@ import statsmodels.api as sm
 import scipy.stats.mstats as ssm
 
 class regress(object):
+    #回归
     def __init__(self,today,data,hold,tot_ret):
         self.today = today
         self.data = data
